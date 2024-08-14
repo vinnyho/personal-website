@@ -13,9 +13,9 @@ const TopNav = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto">
-            <Link className="nav-link" to="/home" style={{ fontSize: '14px' }}>Home</Link>
-            <Link className="nav-link" to="/projects" style={{ fontSize: '14px' }}>Projects</Link>
-            <Link className="nav-link" to="/resume" style={{ fontSize: '14px' }}>Resume</Link>
+            <Link className="nav-link" to="/home" style={{ fontSize: '20px' }}>Home</Link>
+            <Link className="nav-link" to="/projects" style={{ fontSize: '20px' }}>Projects</Link>
+            <Link className="nav-link" to="/resume" style={{ fontSize: '20px' }}>Resume</Link>
           
           </div>
         </div>
