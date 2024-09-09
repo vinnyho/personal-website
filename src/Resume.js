@@ -12,7 +12,7 @@ const Resume = () => {
         overflow: 'hidden' 
       }}>
         <iframe
-          src={resume}
+
           style={{ 
             width: '100%', 
             height: '100%', 
@@ -22,11 +22,7 @@ const Resume = () => {
         ></iframe>
       </div>
       
-      <a href={resume} download style={{ textDecoration: 'none' }}>
-        <button type="button" className="btn btn-outline-light" style={{ marginTop: '40px' }}>
-          Download Resume
-        </button>
-      </a>
+
     </div>
   );
 };
