@@ -8,7 +8,7 @@ const Home = () => {
         Hello, I am Vincent,
       </h1>
       <h2 style={{ textAlign: 'left', marginTop: '15px', marginLeft: '20px', fontSize: '20px' }}>
-        a first-year majoring in CS at the University of California, Irvine. I hold interests in software engineering, data science,
+        a first-year at the University of California, Irvine. I hold interests in software engineering, data science,
         and tech.
       </h2>
 
