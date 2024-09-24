@@ -11,7 +11,7 @@ const Resume = () => {
         margin: '0 auto', 
         overflow: 'hidden' 
       }}>
-        <iframe
+        <iframe src={resume}
 
           style={{ 
             width: '100%', 

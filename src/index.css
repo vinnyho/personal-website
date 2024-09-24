@@ -1,17 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* Navbar.css */
+
 .navbar {
   background-color: #333;
   color: white;
@@ -19,7 +19,7 @@ code {
 }
 
 .navbar-custom {
-  border: 1px solid #000000; 
+  border: 1px solid #a000000;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -36,34 +36,3 @@ code {
   display: inline;
   margin: 0 10px;
 }
-
-.card-container {
-  perspective: 1000px; /* Adds perspective to the 3D transformation */
-}
-
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  transform-style: preserve-3d; /* Ensures the 3D effect is applied */
-}
-
-.card:hover {
-  transform: scale(1.05); /* Slightly enlarges the card */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a shadow for depth */
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: black;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-.carousel-control-prev-icon {
-  background-image: none;
-}
-
-.carousel-control-next-icon {
-  background-image: none;
-}
-

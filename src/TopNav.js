@@ -8,16 +8,10 @@ const TopNav = () => {
         <Link className="navbar-brand" to="/" style={{ fontSize: '30px', fontWeight: 'bold', padding: '0.5rem 0' }}>
           Vincent Ho
         </Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ms-auto">
-            <Link className="nav-link" to="/home" style={{ fontSize: '20px' }}>Home</Link>
-            <Link className="nav-link" to="/projects" style={{ fontSize: '20px' }}>Projects</Link>
-            <Link className="nav-link" to="/resume" style={{ fontSize: '20px' }}>Resume</Link>
-          
-          </div>
+        <div className="navbar-nav ms-auto">
+          <Link className="nav-link" to="/home" style={{ fontSize: '20px' }}>Home</Link>
+          <Link className="nav-link" to="/projects" style={{ fontSize: '20px' }}>Projects</Link>
+          <Link className="nav-link" to="/resume" style={{ fontSize: '20px' }}>Resume</Link>
         </div>
       </div>
     </nav>

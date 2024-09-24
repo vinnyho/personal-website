@@ -1,6 +1,5 @@
-// Project.js
+
 import React from 'react';
-import ProjectCard from './ProjectCard';
 
 const Project = () => {
   return (
