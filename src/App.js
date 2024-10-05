@@ -1,11 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import TopNav from './TopNav';
-import Home from './Home';
-import Projects from './Project';
-import Resume from './Resume';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import TopNav from "./TopNav";
+import Home from "./Home";
+import Projects from "./Project";
+import Resume from "./Resume";
 
 function App() {
   return (
@@ -18,9 +18,8 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
-      
-          
-              <Route path="/" element={<Home />} /> 
+
+              <Route path="/" element={<Home />} />
             </Routes>
           </div>
         </header>
